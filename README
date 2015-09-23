@@ -14,3 +14,16 @@ usage:
 
 	curry list
 		lists all the configurations
+
+installation:
+	
+	to create an installation at /usr/local/bin/ use
+		'make install'
+
+	to create an installation at $(HOME)/bin use
+		'make localinstall'
+	
+deinstallation
+	to uninstall curry use 
+		'make uninstall'
+
