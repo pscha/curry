@@ -13,7 +13,7 @@ install:
 	@echo "installing to '/usr/local/bin/'"
 	mkdir $(HOME)/.curry
 	sudo cp curry.sh /usr/local/bin/curry
-	sudo chmod u+x /usr/local/bin/curry
+	sudo chmod a+x /usr/local/bin/curry
 
 uninstall:
 	@echo "uninstalling curry"
