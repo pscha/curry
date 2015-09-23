@@ -28,12 +28,15 @@ and where they live in the original system.
 ## installation:
 	
 to create an installation at /usr/local/bin/ use
+
 	'make install'
 
 to create an installation at $(HOME)/bin use
+
 	'make localinstall'
 	
 ## deinstallation
 to uninstall curry use 
+
 	'make uninstall'
 
