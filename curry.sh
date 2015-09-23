@@ -8,6 +8,11 @@ if [ "$1" = "new" ]; then
 	mkdir -p $HOME/.curry/$2
 fi
 
+if [ "$1" = "rm" ]; then
+	# create a new directory
+	rm -rfi $HOME/.curry/$2
+fi
+
 if [ "$1" = "add" ]; then
 	# copy the configurationfile into the .curry directory
 	#mkdir -p $HOME/.curry/$2/$(pwd)/

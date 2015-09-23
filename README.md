@@ -16,6 +16,9 @@ and where they live in the original system.
 	curry new [name] 
 		creates a new configuration set
 
+	curry rm [name] 
+		removes a configuration set (interactive)
+
 	curry add [name] [file]
 		adds a file to the configuration set
 
