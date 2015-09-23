@@ -1,0 +1,16 @@
+curry 
+
+a tool to save a set of configurationfiles that create a theme
+
+usage:
+	curry new [name] 
+		creates a new configuration set
+
+	curry add [name] [file]
+		adds a file to the configuration set
+
+	curry load [name]
+		loads the configuration in name
+
+	curry list
+		lists all the configurations
